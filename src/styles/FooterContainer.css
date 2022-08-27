@@ -1,0 +1,22 @@
+.footer-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: .5rem;
+    margin-top: 2rem;
+}
+
+.footer-container img{
+    width: 4.5rem;
+    height: 1.5rem;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 600px){
+    .footer-container img{
+        width: 4.5rem;
+        height: 1.5rem;
+        object-fit: contain;
+    }
+}

@@ -1,0 +1,70 @@
+.img-container img{
+    width: 100%;
+}
+
+.info-container{
+    text-align: center;
+}
+
+.info-container button{
+    width: 35%;
+    padding: .8rem;
+    color: white;
+    background-color: black;
+    border-radius: .5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.info-container button:hover{
+    background-color: white;
+    color: black;
+}
+
+@media screen and (min-width: 600px){
+    .home-container{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .img-container{
+        width: 50%;
+    }
+
+    .img-container img{
+        width: 100%;
+        height: 80vh;
+        margin-top: 3rem;
+        object-fit: contain;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .info-container{
+        width: 50%;
+        text-align: left;
+        padding: 3rem;
+        z-index: 999;
+    }
+
+    .info-container p{
+        font-size: 1.5rem;
+        font-weight: lighter;
+        color: #6b6969;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .info-container h1{
+        font-size: 6rem;
+        font-size: 5rem;
+        width: 30rem;
+        margin-top: 4.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .info-container button{
+        width: 8.5rem;
+        padding: .8rem;
+    }
+}
